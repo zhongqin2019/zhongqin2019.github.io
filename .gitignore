@@ -1,7 +1,3 @@
-_site/
-*.swp
-*.~vsd
-\#*\#
-*~
-.DS_Store
-Gemfile.lock
+/build-tool/dev
+/build-tool/dist
+/_site
