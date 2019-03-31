@@ -1,4 +1,4 @@
-<header class="container header select-none">
+<header class="header select-none">
   <img class="logo" src="{{ site.baseUrl }}/static/img/logo.jpg" />
   <span class="title">{{ site.title }}</span>
   
@@ -9,4 +9,21 @@
     {% endfor %}
   </nav>
  
+</header>
+
+<header class="headers">
+	<div class="container header select-none">
+		<div>
+  			 <img class="logo" src="{{ site.baseUrl }}/static/img/logo.jpg" />
+             <span class="title">{{ site.title }}</span>
+		</div>
+		<div class="headers_menu">
+	
+  		 <nav class="menu">
+    {% for menu in site.menu %}
+    <a href="{{ site.baseUrl }}{{ menu.url }}" class="hover-underline">{{ menu.title }}</a>
+    {% endfor %}
+  </nav>
+ </div>
+</div>
 </header>
