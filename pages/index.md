@@ -1,7 +1,7 @@
 ---
 layout: mypost
 isPage: true
-title: 中勤管理有限公司
+title: 首页
 ---
 
 ### 公司介绍

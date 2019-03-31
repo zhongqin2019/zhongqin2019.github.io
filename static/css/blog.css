@@ -109,9 +109,10 @@ body::-webkit-scrollbar {
   max-width: 900px;
 }
 .header {
-  margin-top: 40px;
-  margin-bottom: 50px;
+  width: 100%;
+  margin: 0 auto;
   background:#3F51B5
+  
 }
 .header .logo {
   display: inline-block;
@@ -131,16 +132,14 @@ body::-webkit-scrollbar {
   display: none;
 }
 .header .title {
-  display: inline-block;
-  vertical-align: middle;
-  display: none;
+   font-size: 24px
 }
 .header .menu {
   display: inline-block;
   font-size: 0;
 }
 .header .menu a {
-  font-size: 18px;
+  ç
   display: inline-block;
   margin: 0 13px;
   position: relative;
@@ -381,9 +380,9 @@ body::-webkit-scrollbar {
   font-size: 13px;
   margin-top: 10px;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
   .container {
-    max-width: 520px;
+    max-width: 900px;
   }
 }
 @media screen and (max-width: 900px) {
