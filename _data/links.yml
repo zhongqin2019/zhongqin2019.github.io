@@ -1,0 +1,8 @@
+- name: Android官网
+  url: http://developer.android.com/index.html
+
+- name: Android源码
+  url: https://android.googlesource.com
+
+- name: 码志
+  url: http://mazhuang.org

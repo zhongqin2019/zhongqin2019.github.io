@@ -1,61 +1,109 @@
-# Site title
-title: "@jasonrudolph"
+# ---------------- #
+#   Main Configs   #
+# ---------------- #
+baseurl:
+url: http://www.iamlarry.com
+date_format: "ordinal"
+title: 努力的Larry
+subtitle: "读书使人进步"
+description: "Larry的个人博客"
+keywords: Larry, IamLarry
+favicon: /favicon.ico
+timezone: Asia/Shanghai
+encoding: "utf-8"
+side_bar_repo_limit: 5
 
-# A description of your site for social meta tag and search engines
-description: "Jason Rudolph - Programmer, consultant, speaker, and author specializing in Ruby and Rails"
+# ---------------- #
+#      Author      #
+# ---------------- #
+author: Larry
+organization: iamlarry.com
+organization_url: http://www.iamlarry.com
+github_username: FightingLarry
+location: Shenzhen, China
+email: 511573633@qq.com
 
-# The base hostname & protocol of your site for where absolute urls are needed
-url: "http://jasonrudolph.com"
+# ---------------- #
+#    Navigation    #
+# ---------------- #
+navs:
+  -
+    href: /
+    label: 首页
 
-# The subpath of your site, e.g. /blog, for generating urls
-baseurl: ""
+  -
+    href: /categories/
+    label: 分类
 
-# The site cover image on the home page
-image:
+  -
+    href: /wiki/
+    label: 维基
 
-# The shortname for your Disqus site to enable comments
-disqus_shortname:
+  -
+    href: /links/
+    label: 链接
 
-# Your Google Analytics tracking code
-google_analytics_tracking_id: "UA-4605088-1"
+  -
+    href: /about/
+    label: 关于
 
-# Site navigation
-nav:
-  - title: "Home"
-    url:   "/"
-  - title: "Talks"
-    url:   "/events"
-  - title: "About"
-    url:   "/about"
+# ---------------- #
+#       RSS        #
+# ---------------- #
+subscribe_rss: /feed.xml
 
-# Author information
-author:
-  name: Jason Rudolph
-  bio: Engineer at GitHub, runner, world traveler, and aspiring cookist
-  avatar: /images/jasonrudolph.jpg
-
-# The "read next" posts to recommend at the bottom of each post
-recommended_posts:
-  - url: /blog/2014/03/02/defining-atom-commands-in-your-init-script/
-  - url: /blog/2013/01/23/as-creative-as-we-make-time-to-be/
-  - url: /blog/2011/08/09/programming-achievements-how-to-level-up-as-a-developer/
-  - url: /blog/2009/05/27/git-up-10-reasons-to-upgrade-your-old-git-installation/
-  - url: /blog/2008/06/17/testing-anti-patterns-incidental-coverage/
-  - url: /blog/2012/09/11/clojurescript-4-things-that-might-worry-you-but-should-not/
-
-# Extra Open Graph and Twitter Cards settings for social sharing
-
-# Fallback og:image when no page.image or site.image. Facebook requires image be
-# at least 200 x 200 pixels.
-og_image:
-
-# twitter:site. Your Twitter username without "@"
-twitter_site: jasonrudolph
-
-permalink: pretty
+# ---------------- #
+#      Jekyll      #
+# ---------------- #
 markdown: kramdown
 kramdown:
-  input: GFM
-  hard_wrap: false
+    input: GFM
+highlighter: rouge
+paginate: 8
+lsi: false
+quiet: false
+excerpt_separator: "\n\n"
+permalink: /:year/:month/:day/:title/
 gems:
-  - jekyll-redirect-from
+    - jekyll-github-metadata
+    - rouge
+#     - jekyll-html-pipeline
+    - jekyll-paginate
+    - jekyll-sitemap
+    - jekyll-feed
+    - jemoji
+#     - jekyll-mentions
+collections:
+    wiki:
+        output: true
+        permalink: /wiki/:path/
+
+repository: FightingLarry/FightingLarry.github.io
+
+# ---------------- #
+#      Comments    #
+# ---------------- #
+# support provider: disqus, gitment
+comments_provider: gitment
+# !!!重要!!! 请修改下面这些信息为你自己申请的
+# !!!Important!!! Please modify infos below to yours
+# https://disqus.com
+disqus:
+    username: iamlarryDisqus
+# https://imsun.net/posts/gitment-introduction/
+
+gitment:
+    owner: iamlarry
+    repo: blog-comments
+    oauth:
+        client_id: de2aca8354f060a784e8
+        client_secret: d74ebf402d994ac997a871b43461b2717fac8939
+        
+# 在使用其它评论组件时可点击显示 Disqus
+lazy_load_disqus : false
+
+# ---------------- #
+#    Analytics     #
+# ---------------- #
+google:
+    analytics_id: UA-100236772-1
