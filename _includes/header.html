@@ -1,11 +1,12 @@
 <header class="container header select-none">
   <img class="logo" src="{{ site.baseUrl }}/static/img/logo.jpg" />
   <span class="title">{{ site.title }}</span>
-  <input type="checkbox" id="menu-checkbox">
+  
+	
   <nav class="menu">
     {% for menu in site.menu %}
     <a href="{{ site.baseUrl }}{{ menu.url }}" class="hover-underline">{{ menu.title }}</a>
     {% endfor %}
   </nav>
-  <label class="menu-togger" for="menu-checkbox"></label>
+ 
 </header>
