@@ -158,7 +158,7 @@
 }
 @media screen and (max-width: 900px) {
   .post * {
-    font-size: 12px;
+    font-size: 14px;
   }
   .post h1,
   .post h2 {
