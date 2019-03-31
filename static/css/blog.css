@@ -385,9 +385,9 @@ body::-webkit-scrollbar {
     max-width: 520px;
   }
 }
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 900px) {
   .container {
-    max-width: 560px;
+    max-width: 900px;
     padding-left: 15px;
     padding-right: 15px;
   }
@@ -395,6 +395,16 @@ body::-webkit-scrollbar {
     padding-top: 54px;
     font-size: 12px;
   }
+  h1,h2 {
+  	font-weight: normal;
+  	font-size: 18px;
+  	margin: 14px 0;
+ } 
+ h4,h5,h6 {
+  font-size: 15px;
+  font-weight: bold;
+  margin: 14px 0;
+ }
   .header {
     position: fixed;
     top: 0;
