@@ -13,15 +13,15 @@ baseUrl: ''
 
 # 菜单
 menu:
-  - title: Home
+  - title: 主页
     url: /
-  - title: Categories
+  - title: 注册业务
     url: /pages/categories.html
-  - title: Search
+  - title: 变更业务
     url: /pages/search.html
-  - title: Links
+  - title: 注销业务
     url: /pages/links.html
-  - title: Chat
+  - title: 财务业务
     url: /pages/chat.html
   - title: About
     url: /pages/about.html
