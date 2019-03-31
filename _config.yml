@@ -1,11 +1,11 @@
 encoding: utf-8
 
 # SEO相关信息
-title: TMaize Blog
-description: TMaize的个人博客
-keywords: TMaize,Blog,Java,Html,JavaScript
-author: TMaize
-footerText: 'Copyright © 2016 皖ICP备16016174号'
+title: 中勤管理咨询有限公司
+description: 中勤管理咨询有限公司
+keywords: 中勤,中勤管理,咨询,财务,注册,注销,公司业务
+author: 中勤管理
+footerText: 'Copyright © 2019 深圳市中勤管理咨询有限公司'
 
 # 路径配置
 domainUrl: 'http://blog.tmaize.net'
