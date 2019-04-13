@@ -1,6 +1,6 @@
 # Site settings
-title: 中勤管理咨询有限公司
-SEOTitle: 中勤管理咨询有限公司
+title: 深圳市中勤管理咨询有限公司
+SEOTitle: 中勤管理
 header-img: img/post-bg-desk.jpg
 email: 13528725660@163.com
 description: "成为最受尊敬的企业服务平台"
@@ -97,9 +97,9 @@ service-worker: true
 
 
 # Friends
-friends: [
-    {
-        title: "中勤",
-        href: "http://www.gdzqgl.com/"
-    }
-]
+# friends: [
+#    {
+#        title: "中勤",
+#        href: "http://www.gdzqgl.com/"
+#    }
+# ]
