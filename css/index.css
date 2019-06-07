@@ -1,13 +1,13 @@
 #content_item_left{
 	height: 400px;
 	width: 360px;
-    margin: 12px; 
+    margin: 8px; 
 	float: left; 	
 }
 #content_item_right{
 	height: 400px;
 	width: 360px;
-    margin: 12px;
+    margin: 8px;
 	float: right;	
 }
 #content_item_bg1{
