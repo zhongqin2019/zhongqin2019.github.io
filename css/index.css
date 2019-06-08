@@ -12,36 +12,35 @@
 }
 #content_item_bg1{
 	height: 200px;
-	width: 48%;
-    margin: 1%; 
+	width: auto;
 	background:url(../img/title1.jpg) center no-repeat;
 }
 #content_item_bg2{
 	height: 200px;
-	width: 48%;
-    margin: 1%; 
+	width: auto;
 	background:url(../img/title2.jpg) center no-repeat;
 }
 #content_item_bg3{
 	height: 200px;
-	width: 48%;
-    margin: 1%; 
+	width:  auto;
 	background:url(../img/title3.jpg) center no-repeat;
 }
 #content_item_bg4{
 	height: 200px;
-	width: 48%;
-    margin: 1%; 
+	width: auto;
 	background:url(../img/title4.jpg) center no-repeat;
 }
 .content_item_a{
 	margin-left: 20px;
 	margin-top: 20px;
   	color: #fff;
+	text-align:center
+		
 }
 .content_item_title{
-	font-size: 30px;
-	padding-left: 18px
+	font-size: 20px;
+	padding-left: 18px;
+	align-content: space-between;
 }
 ul{
 	list-style-type:none;
