@@ -13,12 +13,12 @@
 #content_item_bg1{
 	height: 200px;
 	width: auto;
-	background:url(../img/title1.jpg) left no-repeat;
+	background:url(../img/title2.jpg) left no-repeat;
 }
 #content_item_bg2{
 	height: 200px;
 	width: auto;
-	background:url(../img/title2.jpg) left no-repeat;
+	background:url(../img/title1.jpg) left no-repeat;
 }
 #content_item_bg3{
 	height: 200px;
