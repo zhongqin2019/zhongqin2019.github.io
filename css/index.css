@@ -18,17 +18,17 @@
 #content_item_bg2{
 	height: 200px;
 	width: auto;
-	background:url(../img/title2.jpg) fixed no-repeat;
+	background:url(../img/title2.jpg) left no-repeat;
 }
 #content_item_bg3{
 	height: 200px;
 	width:  auto;
-	background:url(../img/title3.jpg) center no-repeat;
+	background:url(../img/title3.jpg) left no-repeat;
 }
 #content_item_bg4{
 	height: 200px;
 	width: auto;
-	background:url(../img/title4.jpg) content-box no-repeat;
+	background:url(../img/title4.jpg) left no-repeat;
 }
 .content_item_a{
 	margin-left: 20px;
