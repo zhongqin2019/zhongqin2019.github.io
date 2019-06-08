@@ -13,12 +13,12 @@
 #content_item_bg1{
 	height: 200px;
 	width: auto;
-	background:url(../img/title1.jpg) center no-repeat;
+	background:url(../img/title1.jpg) left no-repeat;
 }
 #content_item_bg2{
 	height: 200px;
 	width: auto;
-	background:url(../img/title2.jpg) center no-repeat;
+	background:url(../img/title2.jpg) fixed no-repeat;
 }
 #content_item_bg3{
 	height: 200px;
@@ -28,7 +28,7 @@
 #content_item_bg4{
 	height: 200px;
 	width: auto;
-	background:url(../img/title4.jpg) center no-repeat;
+	background:url(../img/title4.jpg) content-box no-repeat;
 }
 .content_item_a{
 	margin-left: 20px;
